@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import PersistanceSettings from './settings/PersistanceSettings';
 import { MongooseModule } from '@nestjs/mongoose';
-import { ILeaderboardRepositorySymbol } from 'src/domain/repositories/ILeaderboardRepository.ts';
+import { ILeaderboardRepositorySymbol } from 'src/domain/repositories/ILeaderboardRepository';
 import LeaderboardRepository from './repositories/LeaderboardRepository';
 import LeaderboardPersistanceMapper from './mappers/LeaderboardPersistanceMapper';
 import LeaderboardDomainMapper from './mappers/LeaderboardDomainMapper';
